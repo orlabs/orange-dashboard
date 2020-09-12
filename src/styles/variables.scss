@@ -23,3 +23,6 @@ $sideBarWidth: 210px;
   subMenuHover: $subMenuHover;
   sideBarWidth: $sideBarWidth;
 }
+.el-menu .el-menu-item span {
+  margin-left: 10px;
+}

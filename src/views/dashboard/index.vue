@@ -1,6 +1,13 @@
 <template>
   <div class="dashboard-container">
-    <div class="dashboard-text">name:</div>
+    <div class="row content-header">
+      <div class="col-md-12">
+        <div class="pull-left">
+          <h4 class="head_title">Orange概览</h4> <span id="node_tip">&raquo; 该节点启动于&nbsp;<span id="start_time_span"></span></span>
+        </div>
+        <div class="pull-right"></div>
+      </div>
+    </div>
   </div>
 </template>
 
