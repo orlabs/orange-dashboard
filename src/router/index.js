@@ -7,11 +7,16 @@ Vue.use(Router)
 export const ConstantRoutes = [{
   path: '/',
   component: Layout,
-  redirect: '/dashboard',
+  redirect: '/plugins'
+},
+{
+  path: '/',
+  component: Layout,
+  redirect: '/plugins',
   children: [{
-    path: 'dashboard',
-    name: 'Dashboard',
-    component: () => import('@/views/dashboard/index'),
+    path: 'plugins',
+    name: 'Plugins',
+    component: () => import('@/views/dashboard/plugins'),
     meta: { title: '概况', icon: 'home' }
   }]
 },
